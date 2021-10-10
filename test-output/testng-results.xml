@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-09T14:10:58Z" name="Suite" finished-at="2021-10-09T14:12:13Z" duration-ms="75388">
+    <groups>
+    </groups>
+    <test started-at="2021-10-09T14:10:58Z" name="Test" finished-at="2021-10-09T14:12:13Z" duration-ms="75388">
+      <class name="com.testClasses.ForgotPassword">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.testClasses.ForgotPassword@3370f42]" started-at="2021-10-09T14:11:22Z" name="setup" finished-at="2021-10-09T14:11:32Z" duration-ms="9762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyforgotPassword()[pri:0, instance:com.testClasses.ForgotPassword@3370f42]" started-at="2021-10-09T14:11:32Z" name="VerifyforgotPassword" finished-at="2021-10-09T14:11:47Z" duration-ms="14953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyforgotPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testClasses.ForgotPassword@3370f42]" started-at="2021-10-09T14:11:47Z" name="tearDown" finished-at="2021-10-09T14:11:49Z" duration-ms="1499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testClasses.ForgotPassword -->
+      <class name="com.testClasses.MultipleWindow">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.testClasses.MultipleWindow@6057aebb]" started-at="2021-10-09T14:11:49Z" name="setup" finished-at="2021-10-09T14:11:58Z" duration-ms="9557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyforgotPassword()[pri:0, instance:com.testClasses.MultipleWindow@6057aebb]" started-at="2021-10-09T14:11:58Z" name="VerifyforgotPassword" finished-at="2021-10-09T14:12:11Z" duration-ms="13046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyforgotPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testClasses.MultipleWindow@6057aebb]" started-at="2021-10-09T14:12:12Z" name="tearDown" finished-at="2021-10-09T14:12:13Z" duration-ms="1387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testClasses.MultipleWindow -->
+      <class name="com.testClasses.FormAuthontication">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.testClasses.FormAuthontication@9573584]" started-at="2021-10-09T14:10:58Z" name="setup" finished-at="2021-10-09T14:11:08Z" duration-ms="10506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="formAuthentication()[pri:0, instance:com.testClasses.FormAuthontication@9573584]" started-at="2021-10-09T14:11:08Z" name="formAuthentication" finished-at="2021-10-09T14:11:20Z" duration-ms="11364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formAuthentication -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testClasses.FormAuthontication@9573584]" started-at="2021-10-09T14:11:20Z" name="tearDown" finished-at="2021-10-09T14:11:22Z" duration-ms="1493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testClasses.FormAuthontication -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

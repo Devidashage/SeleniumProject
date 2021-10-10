@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+<listener class-name="com.utils.ReportingUtility"/>
+</listeners>
+<test name="Test">
+    <classes>
+           <class name="com.testClasses.FormAuthontication"/>
+           <class name="com.testClasses.ForgotPassword"/>
+           <class name="com.testClasses.MultipleWindow"/>
+          <!--  <class name="com.testClasses.BasicAuth"/>-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
